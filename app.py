@@ -26,7 +26,7 @@ def calcular():
     return render_template('resultado.html', nombre=nombre, salario=salario_mensual)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True, host='0.0.0.0', port=5000)
 
 
 
